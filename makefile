@@ -41,29 +41,39 @@ install:
 	brew install mongosh
 	brew install ollama
 	brew install mplayer
+	brew install pgcli
 
 docker:
 	docker pull mongodb/mongodb-atlas-local
 	docker pull dyrnq/open-webui:main
+	docker pull postgres:16.4
+
+ollama-pull:
+	ollama pull mxbai-embed-large
+	ollama pull llama3.2
+	ollama pull gemma2:27b
 
 # ==============================================================================
 # Manage project
 
-dev-up:
+compose-up:
 	docker compose -f zarf/docker/compose.yaml up
 
-dev-down:
+compose-down:
 	docker compose -f zarf/docker/compose.yaml down
 
-dev-logs:
+compose-logs:
 	docker compose logs -n 100
 
-dev-ollama-up:
+ollama-up:
 	export OLLAMA_MODELS="zarf/docker/ollama/models" && \
 	ollama serve
 
-dev-ollama-logs:
+ollama-logs:
 	tail -f -n 100 ~/.ollama/logs/server.log
+
+# ==============================================================================
+# Run Tooling
 
 download-data:
 	curl -o zarf/data/example3.gz -X GET http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Cell_Phones_and_Accessories_5.json.gz \
@@ -76,11 +86,8 @@ clean-data:
 mongo:
 	mongosh -u ardan -p ardan mongodb://localhost:27017
 
-ollama-pull:
-	ollama pull mxbai-embed-large
-	ollama pull llama3.2
-	ollama pull gemma2:27b
-	ollama pull hf.co/PrunaAI/defog-llama-3-sqlcoder-8b-GGUF-smashed:Q8_0
+pgcli:
+	pgcli postgresql://postgres:postgres@localhost
 
 openwebui:
 	open -a "Google Chrome" http://localhost:3000/

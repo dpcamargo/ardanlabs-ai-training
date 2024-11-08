@@ -4,6 +4,8 @@ go 1.23.0
 
 require (
 	code.sajari.com/docconv/v2 v2.0.0-pre.4
+	github.com/jackc/pgx/v5 v5.5.5
+	github.com/jmoiron/sqlx v1.4.0
 	github.com/tmc/langchaingo v0.1.12
 	go.mongodb.org/mongo-driver v1.17.1
 	golang.org/x/text v0.19.0
@@ -22,6 +24,9 @@ require (
 	github.com/go-resty/resty/v2 v2.15.3 // indirect
 	github.com/golang/snappy v0.0.5-0.20220116011046-fa5810519dcb // indirect
 	github.com/google/uuid v1.6.0 // indirect
+	github.com/jackc/pgpassfile v1.0.0 // indirect
+	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
+	github.com/jackc/puddle/v2 v2.2.1 // indirect
 	github.com/jaytaylor/html2text v0.0.0-20230321000545-74c2419ad056 // indirect
 	github.com/klauspost/compress v1.17.11 // indirect
 	github.com/levigross/exp-html v0.0.0-20120902181939-8df60c69a8f5 // indirect

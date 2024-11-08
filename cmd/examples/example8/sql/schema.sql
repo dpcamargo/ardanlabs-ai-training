@@ -1,17 +1,4 @@
-### Instructions:
-
-Your task is to convert a question into a SQL query, given a Postgres database schema.
-Adhere to these rules:
-
-- Deliberately go through the question and database schema word by word to appropriately answer the question
-- Use Table Aliases to prevent ambiguity. For example, `SELECT table1.col1, table2.col1 FROM table1 JOIN table2 ON table1.id = table2.id`.
-- When creating a ratio, always cast the numerator as float
-
-### Input:
-
-This SQL query will run on a database whose schema is represented in this string:
-
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
 	user_id       UUID        NOT NULL,
 	name          TEXT        NOT NULL,
 	email         TEXT UNIQUE NOT NULL,
@@ -25,7 +12,7 @@ CREATE TABLE users (
 	PRIMARY KEY (user_id)
 );
 
-CREATE TABLE products (
+CREATE TABLE IF NOT EXISTS products (
 	product_id   UUID           NOT NULL,
     user_id      UUID           NOT NULL,
 	name         TEXT           NOT NULL,
@@ -38,7 +25,7 @@ CREATE TABLE products (
 	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
 );
 
-CREATE TABLE homes (
+CREATE TABLE IF NOT EXISTS homes (
     home_id       UUID       NOT NULL,
     type          TEXT       NOT NULL,
     user_id       UUID       NOT NULL,
@@ -54,16 +41,3 @@ CREATE TABLE homes (
     PRIMARY KEY (home_id),
     FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
 );
-
--- products.user_id can be joined with users.user_id
--- homes.user_id can be joined with users.user_id
--- view_products.user_id can be joined with users.user_id
-
-### Response:
-
-Just provide the SQL statement to the question.
-
-### Question:
-
-What is the total number of unique products for each user? Provide the user name
-and the count of products.
