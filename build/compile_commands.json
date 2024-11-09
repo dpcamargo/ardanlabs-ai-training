@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/aricamargo/repos/ardanlabs/ai-training/build/src",
+  "command": "/usr/bin/clang++ -Dw2v_EXPORTS -I/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/include  -Wall -Wextra -Wpedantic -Werror -O0 -ggdb -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -o CMakeFiles/w2v.dir/w2v.cpp.o -c /Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/w2v.cpp",
+  "file": "/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/w2v.cpp",
+  "output": "src/CMakeFiles/w2v.dir/w2v.cpp.o"
+},
+{
+  "directory": "/Users/aricamargo/repos/ardanlabs/ai-training/build/src",
+  "command": "/usr/bin/clang++ -Dw2v_EXPORTS -I/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/include  -Wall -Wextra -Wpedantic -Werror -O0 -ggdb -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -o CMakeFiles/w2v.dir/word2vec.cpp.o -c /Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/word2vec.cpp",
+  "file": "/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/word2vec.cpp",
+  "output": "src/CMakeFiles/w2v.dir/word2vec.cpp.o"
+},
+{
+  "directory": "/Users/aricamargo/repos/ardanlabs/ai-training/build/src",
+  "command": "/usr/bin/clang++ -Dw2v_EXPORTS -I/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/include  -Wall -Wextra -Wpedantic -Werror -O0 -ggdb -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -o CMakeFiles/w2v.dir/mapper.cpp.o -c /Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/mapper.cpp",
+  "file": "/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/mapper.cpp",
+  "output": "src/CMakeFiles/w2v.dir/mapper.cpp.o"
+},
+{
+  "directory": "/Users/aricamargo/repos/ardanlabs/ai-training/build/src",
+  "command": "/usr/bin/clang++ -Dw2v_EXPORTS -I/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/include  -Wall -Wextra -Wpedantic -Werror -O0 -ggdb -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -o CMakeFiles/w2v.dir/vocabulary.cpp.o -c /Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/vocabulary.cpp",
+  "file": "/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/vocabulary.cpp",
+  "output": "src/CMakeFiles/w2v.dir/vocabulary.cpp.o"
+},
+{
+  "directory": "/Users/aricamargo/repos/ardanlabs/ai-training/build/src",
+  "command": "/usr/bin/clang++ -Dw2v_EXPORTS -I/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/include  -Wall -Wextra -Wpedantic -Werror -O0 -ggdb -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -o CMakeFiles/w2v.dir/huffmanTree.cpp.o -c /Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/huffmanTree.cpp",
+  "file": "/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/huffmanTree.cpp",
+  "output": "src/CMakeFiles/w2v.dir/huffmanTree.cpp.o"
+},
+{
+  "directory": "/Users/aricamargo/repos/ardanlabs/ai-training/build/src",
+  "command": "/usr/bin/clang++ -Dw2v_EXPORTS -I/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/include  -Wall -Wextra -Wpedantic -Werror -O0 -ggdb -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -o CMakeFiles/w2v.dir/nsDistribution.cpp.o -c /Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/nsDistribution.cpp",
+  "file": "/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/nsDistribution.cpp",
+  "output": "src/CMakeFiles/w2v.dir/nsDistribution.cpp.o"
+},
+{
+  "directory": "/Users/aricamargo/repos/ardanlabs/ai-training/build/src",
+  "command": "/usr/bin/clang++ -Dw2v_EXPORTS -I/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/include  -Wall -Wextra -Wpedantic -Werror -O0 -ggdb -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -o CMakeFiles/w2v.dir/trainer.cpp.o -c /Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/trainer.cpp",
+  "file": "/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/trainer.cpp",
+  "output": "src/CMakeFiles/w2v.dir/trainer.cpp.o"
+},
+{
+  "directory": "/Users/aricamargo/repos/ardanlabs/ai-training/build/src",
+  "command": "/usr/bin/clang++ -Dw2v_EXPORTS -I/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/include  -Wall -Wextra -Wpedantic -Werror -O0 -ggdb -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -o CMakeFiles/w2v.dir/trainThread.cpp.o -c /Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/trainThread.cpp",
+  "file": "/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/trainThread.cpp",
+  "output": "src/CMakeFiles/w2v.dir/trainThread.cpp.o"
+}
+]

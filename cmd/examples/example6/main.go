@@ -35,7 +35,6 @@ import (
 	"os"
 	"regexp"
 	"strings"
-	"time"
 
 	"github.com/ardanlabs/ai-training/foundation/mongodb"
 	"github.com/tmc/langchaingo/llms/ollama"
@@ -61,17 +60,17 @@ func run() error {
 		return fmt.Errorf("createEmbeddings: %w", err)
 	}
 
-	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
-	defer cancel()
+	// ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+	// defer cancel()
 
-	col, err := setupDatabase(ctx)
-	if err != nil {
-		return fmt.Errorf("setupDatabase: %w", err)
-	}
+	// col, err := setupDatabase(ctx)
+	// if err != nil {
+	// 	return fmt.Errorf("setupDatabase: %w", err)
+	// }
 
-	if err := insertEmbeddings(ctx, col); err != nil {
-		return fmt.Errorf("insertEmbeddings: %w", err)
-	}
+	// if err := insertEmbeddings(ctx, col); err != nil {
+	// 	return fmt.Errorf("insertEmbeddings: %w", err)
+	// }
 
 	return nil
 }

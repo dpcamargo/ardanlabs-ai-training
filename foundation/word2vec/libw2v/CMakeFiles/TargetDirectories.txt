@@ -1,0 +1,13 @@
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/CMakeFiles/edit_cache.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/CMakeFiles/rebuild_cache.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/CMakeFiles/list_install_components.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/CMakeFiles/install.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/CMakeFiles/install/local.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/CMakeFiles/install/strip.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/CMakeFiles/w2v.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/CMakeFiles/edit_cache.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/CMakeFiles/rebuild_cache.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/CMakeFiles/list_install_components.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/CMakeFiles/install.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/CMakeFiles/install/local.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/foundation/word2vec/libw2v/src/CMakeFiles/install/strip.dir

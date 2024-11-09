@@ -7,7 +7,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=postgres
     volumes:
-      - ./sql-data:/var/lib/postgresql/data
+      - postgres:/var/lib/postgresql/data
 
   mongodb:
     image: mongodb/mongodb-atlas-local:latest
@@ -20,9 +20,9 @@ services:
     ports:
       - 27017-27019:27017-27019
     volumes:
-      - ./db_data:/data
-      - ./db_data/db:/data/db
-      - ./db_data/configdb:/data/configdb
+      - mongodb:/data
+      - mongodb_db:/data/db
+      - mongodb_configdb:/data/configdb
 
   # ollama:
   #   image: ollama/ollama:latest
@@ -45,10 +45,12 @@ services:
     ports:
       - 3000:8080
     volumes:
-      - ./openwebui:/app/backend/data
+      - openwebui:/app/backend/data
 
 volumes:
   postgres: {}
   mongodb: {}
+  mongodb_db: {}
+  mongodb_configdb: {}
   # ollama: {}
   openwebui: {}

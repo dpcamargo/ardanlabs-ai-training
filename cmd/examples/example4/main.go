@@ -56,7 +56,7 @@ func run() error {
 	// -------------------------------------------------------------------------
 	// Connect to mongo
 
-	client, err := mongodb.Connect(ctx, "mongodb://localhost:27017", "ardan", "ardan")
+	client, err := mongodb.Connect(ctx, "mongodb://localhost:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.3", "ardan", "ardan")
 	if err != nil {
 		return fmt.Errorf("connectToMongo: %w", err)
 	}

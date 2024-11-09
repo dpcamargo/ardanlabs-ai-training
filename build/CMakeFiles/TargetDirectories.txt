@@ -1,0 +1,13 @@
+/Users/aricamargo/repos/ardanlabs/ai-training/build/CMakeFiles/edit_cache.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/CMakeFiles/rebuild_cache.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/CMakeFiles/list_install_components.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/CMakeFiles/install.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/CMakeFiles/install/local.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/CMakeFiles/install/strip.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/src/CMakeFiles/w2v.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/src/CMakeFiles/edit_cache.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/src/CMakeFiles/rebuild_cache.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/src/CMakeFiles/list_install_components.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/src/CMakeFiles/install.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/src/CMakeFiles/install/local.dir
+/Users/aricamargo/repos/ardanlabs/ai-training/build/src/CMakeFiles/install/strip.dir
